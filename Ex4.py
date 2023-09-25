@@ -10,8 +10,8 @@ mean = (math + physics + chemistry) / 3
 if (mean >= 17):
     print(fullName, 'is Great')
 
-if (mean < 17 and mean >= 12):
+elif (mean < 17 and mean >= 12):
     print(fullName, 'is Normal')
 
-if (mean < 12):
+elif (mean < 12):
     print(fullName, 'is Fail')

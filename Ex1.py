@@ -10,34 +10,34 @@ res = None
 if op == "+":
     res = a + b
 
-if op == "-":
+elif op == "-":
     res = a - b
 
-if op == "/":
+elif op == "/":
     if b != 0:
         res = a / b
     else:
         ('divided by zero')
 
-if op == "*":
+elif op == "*":
     res = a * b
 
-if op == "pow":
+elif op == "pow":
     res = a ** b
 
-if op == "sin":
+elif op == "sin":
     res = math.sin(a)
 
-if op == "cos":
+elif op == "cos":
     res = math.cos(a)
 
-if op == "tan":
+elif op == "tan":
     res = math.tan(a)
 
-if op == "cot":
+elif op == "cot":
     res = math.cos(a) / math.sin(a)
 
-if op == "radical":
+elif op == "radical":
     res = math.sqrt(a)
     
 if res != None:
